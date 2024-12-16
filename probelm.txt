@@ -1,0 +1,33 @@
+Project: Task Manager with JSON
+
+Objective:
+Create a simple task manager that allows the user to add, view, update, and delete tasks. Store the tasks in a JSON file so that the data persists even when the program
+is closed.
+
+Features:
+
+    Add a Task: The user can input a task title, description, and due date.
+    View Tasks: Display all the tasks in a list format.
+    Update a Task: Allow the user to update the task's title, description, or due date.
+    Delete a Task: Allow the user to remove a task from the list.
+    Persist Data: Store all tasks in a tasks.json file.
+
+Steps to Implement:
+
+    Define a function to load tasks from the JSON file when the program starts. If the file doesn't exist, create an empty list of tasks.
+    Define a function to save tasks to the JSON file whenever changes are made (add, update, delete).
+    User Interface: Implement a simple command-line interface (CLI) that allows the user to:
+        Add a task
+        View all tasks
+        Update a task by specifying the task number and the new values
+        Delete a task by specifying the task number
+    Main program loop: Keep the program running until the user chooses to exit.
+
+Why This Project?
+
+    JSON Knowledge: You'll practice loading and saving data in JSON format.
+    Python Basics: You'll work with functions, lists, and dictionaries.
+    File Handling: You'll get comfortable reading from and writing to files.
+    Task Management Logic: You'll create logic for adding, deleting, and updating tasks, which will help you practice coding solutions from scratch.
+
+This project gives you an opportunity to practice many fundamental skills in Python while also helping you learn more about JSON file manipulation.
